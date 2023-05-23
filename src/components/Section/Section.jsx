@@ -1,4 +1,3 @@
-import { Children } from 'react';
 import { SectionWrapper, Title, Wrapper } from './Section.styled';
 
 export default function Section({ title, children }) {
