@@ -12,7 +12,7 @@ export default class App extends Component {
   };
 
   onLeaveFeedback = event => {
-    this.setState(prevState => (prevState[event.target.textContent] += 0.5));
+    this.setState(prevState => (prevState[event.target.textContent] += 1));
   };
 
   render() {
