@@ -7,7 +7,7 @@ export default function FeedbackOptions({ options, onLeaveFeedback }) {
     <ButtonList>
       {options.map((option, index) => (
         <ButtonListItem key={index}>
-          <Button onClick={onLeaveFeedback}>{option}</Button>
+          <Button onClick={() => onLeaveFeedback(option)}>{option}</Button>
         </ButtonListItem>
       ))}
     </ButtonList>
